@@ -1,0 +1,11 @@
+{
+    "extends": "strongloop",
+    "parser": "babel-eslint",
+    "rules":
+    {
+        "max-len": ["error",
+        {
+            "code": 180
+        }]
+    }
+}

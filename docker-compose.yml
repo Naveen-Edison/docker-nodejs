@@ -1,0 +1,17 @@
+version: '3'
+services:
+  app:
+    # cointainer_name: payment
+    image: payment
+    restart: always
+    build: .
+    ports: 
+      - '3000:3000'
+    links:
+        - mongo
+
+  mongo:
+    # cointainer_name: localhost
+    image: mongo
+    ports: 
+      - '27018:27017'
