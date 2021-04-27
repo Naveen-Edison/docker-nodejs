@@ -47,7 +47,7 @@
     "path": "^0.12.7",
     "qrcode": "^1.4.4",
     "randomstring": "^1.1.5",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "socket.io": "^2.3.0",
     "speakeasy": "^2.0.0"
   }
